@@ -12,6 +12,8 @@ import Configuration;
 TEXT: [a-zA-Z]+;
 DIGIT: [0-9]+;
 EOL: '\r'? '\n';
+WHITESPACE: [ \t]+ -> skip;
+INDEX: 'X:' ' '* DIGIT ' '* EOL;
 
  
 /*
