@@ -26,6 +26,78 @@ public class ABCmusicBaseListener implements ABCmusicListener {
    * <p>The default implementation does nothing.</p>
    */
   @Override public void exitAbc_tune(ABCmusicParser.Abc_tuneContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterAbc_header(ABCmusicParser.Abc_headerContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitAbc_header(ABCmusicParser.Abc_headerContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterField_number(ABCmusicParser.Field_numberContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitField_number(ABCmusicParser.Field_numberContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterField_title(ABCmusicParser.Field_titleContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitField_title(ABCmusicParser.Field_titleContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterOther_fields(ABCmusicParser.Other_fieldsContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitOther_fields(ABCmusicParser.Other_fieldsContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterField_key(ABCmusicParser.Field_keyContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitField_key(ABCmusicParser.Field_keyContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterAbc_music(ABCmusicParser.Abc_musicContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitAbc_music(ABCmusicParser.Abc_musicContext ctx) { }
 
   /**
    * {@inheritDoc}

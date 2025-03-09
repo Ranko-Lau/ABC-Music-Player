@@ -19,8 +19,10 @@ import org.junit.Test;
 public class LexerTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void basicHeaderTest() {
+		// Tests only the basic header
+		String input = "X: 1 \n T:Piece \n K:C \n";
+		verifyLexer(input, new String[] {"X: 1 \n", "T:Piece \n", "K:C \n"});
 	}
 	
 	
