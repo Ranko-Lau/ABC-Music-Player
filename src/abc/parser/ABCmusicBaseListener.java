@@ -91,6 +91,18 @@ public class ABCmusicBaseListener implements ABCmusicListener {
    *
    * <p>The default implementation does nothing.</p>
    */
+  @Override public void enterField_voice(ABCmusicParser.Field_voiceContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitField_voice(ABCmusicParser.Field_voiceContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
   @Override public void enterAbc_music(ABCmusicParser.Abc_musicContext ctx) { }
   /**
    * {@inheritDoc}
@@ -98,6 +110,126 @@ public class ABCmusicBaseListener implements ABCmusicListener {
    * <p>The default implementation does nothing.</p>
    */
   @Override public void exitAbc_music(ABCmusicParser.Abc_musicContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterLine(ABCmusicParser.LineContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitLine(ABCmusicParser.LineContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterMeasure(ABCmusicParser.MeasureContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitMeasure(ABCmusicParser.MeasureContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterNote_element(ABCmusicParser.Note_elementContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitNote_element(ABCmusicParser.Note_elementContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterNote(ABCmusicParser.NoteContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitNote(ABCmusicParser.NoteContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterRest(ABCmusicParser.RestContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitRest(ABCmusicParser.RestContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterChord(ABCmusicParser.ChordContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitChord(ABCmusicParser.ChordContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterLyric(ABCmusicParser.LyricContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitLyric(ABCmusicParser.LyricContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterDuplet(ABCmusicParser.DupletContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitDuplet(ABCmusicParser.DupletContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterTriplet(ABCmusicParser.TripletContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitTriplet(ABCmusicParser.TripletContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void enterQuadruplet(ABCmusicParser.QuadrupletContext ctx) { }
+  /**
+   * {@inheritDoc}
+   *
+   * <p>The default implementation does nothing.</p>
+   */
+  @Override public void exitQuadruplet(ABCmusicParser.QuadrupletContext ctx) { }
 
   /**
    * {@inheritDoc}

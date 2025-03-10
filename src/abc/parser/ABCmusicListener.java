@@ -71,6 +71,16 @@ public interface ABCmusicListener extends ParseTreeListener {
    */
   void exitField_key(ABCmusicParser.Field_keyContext ctx);
   /**
+   * Enter a parse tree produced by {@link ABCmusicParser#field_voice}.
+   * @param ctx the parse tree
+   */
+  void enterField_voice(ABCmusicParser.Field_voiceContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#field_voice}.
+   * @param ctx the parse tree
+   */
+  void exitField_voice(ABCmusicParser.Field_voiceContext ctx);
+  /**
    * Enter a parse tree produced by {@link ABCmusicParser#abc_music}.
    * @param ctx the parse tree
    */
@@ -80,4 +90,104 @@ public interface ABCmusicListener extends ParseTreeListener {
    * @param ctx the parse tree
    */
   void exitAbc_music(ABCmusicParser.Abc_musicContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#line}.
+   * @param ctx the parse tree
+   */
+  void enterLine(ABCmusicParser.LineContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#line}.
+   * @param ctx the parse tree
+   */
+  void exitLine(ABCmusicParser.LineContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#measure}.
+   * @param ctx the parse tree
+   */
+  void enterMeasure(ABCmusicParser.MeasureContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#measure}.
+   * @param ctx the parse tree
+   */
+  void exitMeasure(ABCmusicParser.MeasureContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#note_element}.
+   * @param ctx the parse tree
+   */
+  void enterNote_element(ABCmusicParser.Note_elementContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#note_element}.
+   * @param ctx the parse tree
+   */
+  void exitNote_element(ABCmusicParser.Note_elementContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#note}.
+   * @param ctx the parse tree
+   */
+  void enterNote(ABCmusicParser.NoteContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#note}.
+   * @param ctx the parse tree
+   */
+  void exitNote(ABCmusicParser.NoteContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#rest}.
+   * @param ctx the parse tree
+   */
+  void enterRest(ABCmusicParser.RestContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#rest}.
+   * @param ctx the parse tree
+   */
+  void exitRest(ABCmusicParser.RestContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#chord}.
+   * @param ctx the parse tree
+   */
+  void enterChord(ABCmusicParser.ChordContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#chord}.
+   * @param ctx the parse tree
+   */
+  void exitChord(ABCmusicParser.ChordContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#lyric}.
+   * @param ctx the parse tree
+   */
+  void enterLyric(ABCmusicParser.LyricContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#lyric}.
+   * @param ctx the parse tree
+   */
+  void exitLyric(ABCmusicParser.LyricContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#duplet}.
+   * @param ctx the parse tree
+   */
+  void enterDuplet(ABCmusicParser.DupletContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#duplet}.
+   * @param ctx the parse tree
+   */
+  void exitDuplet(ABCmusicParser.DupletContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#triplet}.
+   * @param ctx the parse tree
+   */
+  void enterTriplet(ABCmusicParser.TripletContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#triplet}.
+   * @param ctx the parse tree
+   */
+  void exitTriplet(ABCmusicParser.TripletContext ctx);
+  /**
+   * Enter a parse tree produced by {@link ABCmusicParser#quadruplet}.
+   * @param ctx the parse tree
+   */
+  void enterQuadruplet(ABCmusicParser.QuadrupletContext ctx);
+  /**
+   * Exit a parse tree produced by {@link ABCmusicParser#quadruplet}.
+   * @param ctx the parse tree
+   */
+  void exitQuadruplet(ABCmusicParser.QuadrupletContext ctx);
 }
