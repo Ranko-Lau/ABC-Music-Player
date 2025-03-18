@@ -1,7 +1,7 @@
 package tests;
 
 import static org.junit.Assert.*;
-import abc.parser.ABCmusicLexer;
+import parser.ABCmusicLexer;
 
 import java.util.List;
 
