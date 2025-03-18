@@ -1,4 +1,4 @@
-package abc.player;
+package player;
 
 /**
  * Main entry point of your application.
