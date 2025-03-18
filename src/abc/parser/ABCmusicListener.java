@@ -1,6 +1,6 @@
 // Generated from ABCmusic.g4 by ANTLR 4.5.1
 
-package parser;
+package abc.parser;
 // Do not edit this .java file! Edit the .g4 file and re-run Antlr.
 
 import org.antlr.v4.runtime.tree.ParseTreeListener;
