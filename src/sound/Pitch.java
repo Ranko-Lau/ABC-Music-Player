@@ -1,4 +1,4 @@
-package abc.sound;
+package sound;
 
 /**
  * Pitch is an immutable type representing the frequency of a musical note.
