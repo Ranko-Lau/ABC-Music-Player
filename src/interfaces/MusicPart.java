@@ -1,6 +1,7 @@
 package interfaces;
 
 import adts.Music;
+import sound.MusicPlayer;
 
 /**
  * Interface that represents any music part. This could be a MusicPiece, a
